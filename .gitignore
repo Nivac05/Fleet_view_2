@@ -1,0 +1,29 @@
+# Dependencies & Environment
+.venv/
+env/
+node_modules/
+.next/
+dist/
+build/
+
+# Local Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+
+# Large temporary files (keep models and datasets needed for demo)
+!backend/models/*.joblib
+!backend/models/*.json
+!backend/data/*.csv
